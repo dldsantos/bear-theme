@@ -210,8 +210,10 @@ ul.blog-posts li a {
   font-size: 1.05em;
   text-decoration: none;
   color: var(--fg);
+ul.blog-posts li a:hover,
+ul.blog-posts li a:visited:hover {
+  color: var(--accent);
 }
-ul.blog-posts li a:hover { color: var(--accent); }
 ul.blog-posts li a:visited { color: var(--fg); }
 ul.blog-posts li span {
   order: -1;
